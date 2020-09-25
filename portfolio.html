@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../portfolio/index.html#skill">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../portfolio/index.html#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Projects</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
+  <img src="images/backgrounds/map.png" alt="map" class="bg-shape-1 w-100">
+
+</section>
+<!-- /page title -->
+
+<!-- portfolio -->
+<section class="section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="react" />React
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="web" />Web
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="data" />Data Science Projects
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;react&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/recipee.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/recipee">Recipee Application</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;react&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/todo.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/To-Do-list">To-Do-List</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;web&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/sn.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/FUSION_WEB-1">Social Networking Website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;web&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/weather.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/World_Weather_Reporter">Weather Scrapper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;data&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/zomato.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Zomato">Zomato Application</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;web&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/tip.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Tip_Calculator">Tip Calculator</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;data&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/datascience.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Data-Science-with-Python">Health Care</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;react&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/hacker.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay"> 
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Hacker-News">Hacker News</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;react&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/wiki.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay"> 
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Wiki_Hacker">Wikipedia News</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;react&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/foodblog.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay"> 
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/FoodBlog">Food Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;web&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/login.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay"> 
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Simple-Login-Portal">Login/Registration</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;web&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/email.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay"> 
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Email-Subscription-page">Email Subscription</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;web&quot;,&quot;data&quot;]">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/viz.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/SrishtiAvalakki/Information_Visualization">Information visualization</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">FeedBack Time!!</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">FeedBack Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">srishtilakki@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+1(757)-632-2976</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Connect</h5>
+          <ul class="social_icon">
+            <li><a href="https://github.com/SrishtiAvalakki"><i class="fa fa-github" aria-hidden="true" ></i></a></li>
+            <li><a href="https://www.instagram.com/srishti_pa/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.snapchat.com/add/srishtilakki"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/srishti-pramod-avalakki/"><i class="fa fa-linkedin"></i></a></li>
+           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
